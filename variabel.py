@@ -54,7 +54,8 @@ print('\n')
 print('\n')
 
 slicingStr = 'andix'
-print(slicingStr[1:3]) # dimulai dari n yakni index 1 & index 3 tapi tidak sampai 3 atau 2 nd
+print(slicingStr[1:3]) # dimulai dari n yakni index 1 & index 3 tapi tidak sampai 3
+# melainkan index 2 output : nd
 print(slicingStr[0:3]) # and
 
 print('\n bagian minus')

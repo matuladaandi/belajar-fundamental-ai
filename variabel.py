@@ -50,3 +50,27 @@ print(word[5])
 print('\n')
 print(word[-1])
 print(word[-6])
+print('\n')
+print('\n')
+
+slicingStr = 'andix'
+print(slicingStr[1:3]) # dimulai dari n yakni index 1 & index 3 tapi tidak sampai 3 atau 2 nd
+print(slicingStr[0:3]) # and
+
+print('\n bagian minus')
+print(slicingStr[:2])
+print(slicingStr[:5])
+print(slicingStr[-3:])
+print(slicingStr[:-2])
+
+print('\n bagian pengabungan')
+print(slicingStr[:3]+slicingStr[3:])
+print(slicingStr[4:100]) # x
+print(slicingStr[100:]) # kosong
+
+immutableStr='immut'
+# immutableStr[0]='k' # err
+# immutableStr[0:]='y' # err
+
+print(len(kalimatPanjang))
+

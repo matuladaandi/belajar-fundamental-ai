@@ -1,19 +1,19 @@
-x = int(input("Please enter an integer: "))
-if x < 0:
-    x = 0
-    print("Negative changed to zero")
-elif x == 0:
-    print("Zero")
-elif x == 1:
-    print("Single")
-else:
-    print("More")
+# x = int(input("Please enter an integer: "))
+# if x < 0:
+#     x = 0
+#     print("Negative changed to zero")
+# elif x == 0:
+#     print("Zero")
+# elif x == 1:
+#     print("Single")
+# else:
+#     print("More")
 
-umur = int(input("Please enter your age: "))
-if umur >= 18:
-    print("You age is ",umur,"old" " Welcome to Game")
-elif umur < 18:
-    print("You age is",umur,"old" " You are not allowed to play")
+# umur = int(input("Please enter your age: "))
+# if umur >= 18:
+#     print("You age is ",umur,"old" " Welcome to Game")
+# elif umur < 18:
+#     print("You age is",umur,"old" " You are not allowed to play")
 
 def klasifikasi_nilai(nilai : float) -> str:
     """
@@ -37,7 +37,11 @@ def klasifikasi_nilai(nilai : float) -> str:
         return "E"
 
 # Test
-test_values = [90.5, 80, 70, 60, 50]
+test_values = [50,90.5, 80, 70, 60]
 for test in test_values:
     hasil = klasifikasi_nilai(test)
     print(f"Nilai {test}: Grade {hasil}")
+
+umur = 17
+status = "boleh masuk" if umur >= 18 else "tidak boleh masuk"
+print(status)
